@@ -2,7 +2,7 @@
 layout: portfolio_entry
 title: First Post
 image: /img/folder-name/imag3.jpg
-comments:true
+comments: true
 ---
 
 Post excerpt goes here. The first paragraph will be shown only, along with a read more button which links to the full post. Perfect for placing project descriptions or to actually blog about something!
