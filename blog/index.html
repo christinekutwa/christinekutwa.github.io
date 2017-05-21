@@ -9,7 +9,7 @@ comments: false
         {% for post in site.posts %}
             <h2 class="post-title"><a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.url}}">{{ post.title }}</a></h2>
             <p class="post-meta">
-                {{ post.title }}
+
                 {{ post.date | date_to_string }}
             </p>
 
