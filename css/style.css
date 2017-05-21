@@ -104,6 +104,14 @@ section {
   overflow: hidden;
 }
 
+#disqus_thread {
+  width:600px;
+  float:right;
+  padding-bottom:50px;
+  min-height: 400px;
+  overflow: hidden;
+
+}
 small {
   font-size:11px;
 }
