@@ -22,9 +22,7 @@ comments: false
             <p class="post-excerpt">{{ post.excerpt | strip_html }} [<a style="color:#FC645F" href="{{ post.url }}">read more</a>]</p>
 
 
-            {% if site.disqus.christinekutwa-github-io %}
-              {% include disqus_comments.html %}
-            {% endif %}
+
 
         {% endfor %}
 
@@ -32,7 +30,11 @@ comments: false
 
 
 
+
     </section>
+    {% if site.disqus.christinekutwa-github-io %}
+      {% include disqus_comments.html %}
+    {% endif %}
 
 
 </div>
